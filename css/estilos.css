@@ -4,6 +4,11 @@
     box-sizing:0;
 }
 
+body{
+    /*background-color: rgb(37, 36, 36);*/
+    background-image: url("../imagenes/fondo.png");
+}
+
 .container-fluid{
     padding: 20px;
     background-color: black;
@@ -17,5 +22,9 @@
 .nav-link{
     font-size:120%;
     font-family: 'Bebas Neue', cursive;
+    color:white;
+}
+
+button{
     color:white;
 }
