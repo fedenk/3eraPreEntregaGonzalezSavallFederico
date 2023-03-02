@@ -5,26 +5,76 @@
 }
 
 body{
-    /*background-color: rgb(37, 36, 36);*/
-    background-image: url("../imagenes/fondo.png");
+    background-color: black;
 }
 
 .container-fluid{
     padding: 20px;
-    background-color: black;
+    background-color: #f69d04;
+    margin-bottom: 30px;
 }
 
 .nav-item{
-    padding-right: 60px;
-    padding-left: 60px;
+    margin-left: 80px;
 }
 
 .nav-link{
-    font-size:120%;
+    font-size:140%;
     font-family: 'Bebas Neue', cursive;
-    color:white;
 }
 
-button{
-    color:white;
+a{
+    text-align:right;
+}
+
+.nav-item:hover{
+    border-bottom: 3px solid black;
+    font-size: 140%;
+}
+
+.cards{
+    margin-top:30px;
+    margin-bottom:55px;
+}
+
+.card:hover{
+    opacity: 50%;
+}
+.card{
+    margin-left: 65px;
+    margin-top:20px;
+    border: solid 2px #f69d04;
+    background-color: black;
+}
+
+.card-text{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color:#f69d04;
+}
+
+footer{
+    padding:20px;
+    background-color:grey;
+    margin-bottom: 30px;
+}
+
+footer section img{
+    height:30px;
+    margin-left:50px;
+    border-radius:20%;
+}
+
+footer section img:hover{
+    opacity: 50%;
+}
+
+.iconos{
+    padding:20px;
+}
+.txtFooter{
+    font-size:110%;
+    color: black;
+    text-align:justify;
+    padding:20px;
 }
