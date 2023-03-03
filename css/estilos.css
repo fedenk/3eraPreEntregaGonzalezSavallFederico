@@ -32,12 +32,25 @@ a{
     font-size: 140%;
 }
 
+nav div a img:hover{
+    border: 2px solid black;
+}
+
+.dropdown-menu{
+    background-color:#f69d04 ;
+}
+
+.dropdown-item{
+    text-align:center;
+    font-family: 'Bebas Neue', cursive;
+}
+
 .cards{
     margin-top:30px;
     margin-bottom:55px;
 }
 
-.card:hover{
+main section div:hover{
     opacity: 50%;
 }
 .card{
@@ -77,4 +90,42 @@ footer section img:hover{
     color: black;
     text-align:justify;
     padding:20px;
+}
+
+.card-row{
+    margin-top:30px;
+    margin-bottom:30px;
+    border: 1px solid #f69d04;
+    margin-left:2.5px;
+}
+
+main div h2{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200%;
+}
+
+.h2{
+    background-color: white;
+    padding:20px;
+}
+
+.card-title{
+    text-align:center;
+    font-family: 'Bebas Neue', cursive;
+    font-size:300%;
+    padding:20px;
+    color:#f69d04;
+}
+
+.card-var{
+    margin-top:60px;
+    margin-left:30px;
+}
+
+.list-group-item{
+    background-color: black;
+    color:white;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
 }
