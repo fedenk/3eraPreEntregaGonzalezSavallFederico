@@ -5,25 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serendipia🍺</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" type="text/css"> 
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <div>
-                <img class="imagenLogo" src="./imagenes/homer.jpg" alt="Logo">
-            </div>    
-            <ul  class="menu">
-                 <li><a href="../inicio.html">INICIO</a></li>
-                 <li><a href="./variedades.html">VARIEDADES</a></li>
-                 <li><a href="./productos.html">PRODUCTOS</a></li>
-                 <li><a href="./ubicacion.html">UBICACION</a></li>
-                 <li><a href="./contacto.html">CONTACTO</a></li>
-            </ul>
+<body class="container">
+    <header class="row">
+        <div class="col-lg-12">
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../inicio.html"><img width="80px" src="../imagenes/homer.jpg" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Pages/variedades.html">Variedades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Pages/productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="./Pages/ubicacion.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Sucursales
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./pages/ubicacion.html">Flores</a></li>
+                    <li><a class="dropdown-item" href="./Pages/ubicacion.html">Palermo</a></li>
+                    <li><a class="dropdown-item" href="./Pages/ubicacion.html">Belgrano</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
-    </header>
-
+      </div>
+      </header>
+  
     <main>
         <div class="h1">
             <h1>VARIEDADES</h1>
@@ -88,6 +114,7 @@
             <img class="redes" src="./imagenes/fb.png" alt="facebook">
             <img class="redes" src="./imagenes/tw.png" alt="twitter">
         </section>
-    </footer>   
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>      
 </body>
 </html>
