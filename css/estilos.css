@@ -61,6 +61,10 @@ nav div a img:hover{
 .card-index:hover{
     opacity: 50%;
 }
+
+.card-index{
+    border: solid 2px #f68104;
+}
 .card{
     margin-left: 65px;
     margin-top:20px;
@@ -100,6 +104,12 @@ footer section img:hover{
     color: black;
     padding:20px;
     font-family: 'Bebas Neue', cursive;
+    opacity: 50%;
+}
+
+.txtFooter:hover{
+    opacity:100%;
+    color:#f69d04;
 }
 
 .card-row{
