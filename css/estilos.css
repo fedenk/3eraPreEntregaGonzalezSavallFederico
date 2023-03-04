@@ -17,6 +17,7 @@ body{
 
 .nav-item{
     margin-left: 80px;
+    margin-bottom:5px;
 }
 
 .nav-link{
@@ -36,8 +37,11 @@ a{
     -webkit-text-fill-color:white;
 }
 
+nav div a img{
+    border: 2px solid #f68104;
+}
 nav div a img:hover{
-    opacity:90%;
+    border: 2px solid black;
 }
 
 .dropdown-menu{
@@ -81,9 +85,10 @@ footer section{
 }
 
 footer section img{
-    height:30px;
-    margin-left:50px;
+    height:20px;
     border-radius:20%;
+    margin-left:5px;
+    margin-right:5px;
 }
 
 footer section img:hover{
@@ -101,7 +106,7 @@ footer section img:hover{
     margin-top:30px;
     margin-bottom:30px;
     border: 1px solid #f69d04;
-    margin-left:2.5px;
+    
 }
 
 main div h2{
@@ -125,7 +130,7 @@ main div h2{
 
 .card-var{
     margin-top:60px;
-    margin-left:30px;
+    
 }
 
 .list-group-item{
@@ -143,7 +148,6 @@ main div h2{
 .card-img-bottom{
     width:50%;
     margin-top:30px;
-    margin-left:130px;
 }
 
 .card-img-bottom:hover{
@@ -171,4 +175,12 @@ main div h2{
 .btn:hover{
     background-color: white;
     border:3px solid #f68104;
+}
+
+.card-img-top:hover{
+    opacity:50%;
+}
+
+.centrado{
+    text-align: center;
 }
