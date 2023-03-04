@@ -12,6 +12,7 @@ body{
     padding: 20px;
     background-color: #f69d04;
     margin-bottom: 30px;
+    border:3px solid #f68104;
 }
 
 .nav-item{
@@ -21,6 +22,8 @@ body{
 .nav-link{
     font-size:140%;
     font-family: 'Bebas Neue', cursive;
+    border-bottom:3px solid #f68104;
+    border-top:3px solid #f68104;
 }
 
 a{
@@ -29,10 +32,12 @@ a{
 
 .nav-link:hover{
     border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    -webkit-text-fill-color:white;
 }
 
 nav div a img:hover{
-    border: 2px solid black;
+    opacity:90%;
 }
 
 .dropdown-menu{
@@ -158,5 +163,12 @@ main div h2{
 .btn{
     background-color: #f69d04;
     border:3px solid #f68104;
-    margin-bottom: 30px;;
+    margin-bottom: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 120%;
+}
+
+.btn:hover{
+    background-color: white;
+    border:3px solid #f68104;
 }
