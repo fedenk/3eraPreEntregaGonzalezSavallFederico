@@ -63,7 +63,8 @@ nav div a img:hover{
 }
 
 .card-index{
-    border: solid 2px #f68104;
+    border: groove 2px #f68104;
+    margin-bottom: 15px;
 }
 .card{
     margin-left: 65px;
