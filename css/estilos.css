@@ -39,6 +39,7 @@ a{
 
 nav div a img{
     border: 2px solid #f68104;
+    border-radius: 20%;
 }
 nav div a img:hover{
     border: 2px solid black;
@@ -77,6 +78,12 @@ nav div a img:hover{
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     color:#f69d04;
+}
+
+.card-text-ubi{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color:white;
 }
 
 footer{
